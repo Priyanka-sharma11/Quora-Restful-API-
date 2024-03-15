@@ -1,10 +1,27 @@
 .post{
     background-color:blanchedalmond;
 }
-h1{
+h1,h2{
     color:maroon;
 }
 
 .user{
     font-style:italic;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+.dlt-btn{
+    margin-top:0.3rem;
+    margin-bottom:0.2rem;
+}
+
+.clr-btn{
+    border:1px solid black;
+    padding:0.3rem;
+    background-color:maroon;
+    color:white;
 }

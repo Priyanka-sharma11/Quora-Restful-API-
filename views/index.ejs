@@ -16,12 +16,12 @@
             <button><a href="http://localhost:8080/posts/<%=post.id%>">See in Detail</a></button>
             <button><a href="http://localhost:8080/posts/<%=post.id%>/edit">Edit</a></button><br>
            <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
-                <button>Delete Post</button>
+                <button class="clr-btn">Delete Post</button>
             </form>
         </div>
     <% } %>
 
     <br><br>
-    <a href="http://localhost:8080/posts/new">Create new Post</a>
-</body>
+    <a href="http://localhost:8080/posts/new" class="new-btn">Create new Post</a>
+</body> 
 </html>
